@@ -1,6 +1,6 @@
-# emi_calculator
+# EMI CALCULATOR
 
-A new Flutter project.
+Flutter Project UI/UX
 
 ## Getting Started
 
