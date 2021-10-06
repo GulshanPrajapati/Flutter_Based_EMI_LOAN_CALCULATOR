@@ -16,8 +16,6 @@ class MyApp extends StatelessWidget {
   String appName = "";
   //static const IconData car = IconData(0xe1d7,fontFamily: 'MaterialIcons');
 
-
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -106,7 +104,7 @@ class MyApp extends StatelessWidget {
                                         Text(
                                           'HOME LOAN',
                                           style: TextStyle(
-                                            fontSize: 30.0,
+                                            fontSize: 25.0,
                                             fontWeight: FontWeight.w700,
                                             fontFamily: 'Comic',
                                             color: Colors.white,
@@ -156,7 +154,7 @@ class MyApp extends StatelessWidget {
                                         Text(
                                           'PERSONAL LOAN',
                                           style: TextStyle(
-                                            fontSize: 30.0,
+                                            fontSize: 25.0,
                                             fontWeight: FontWeight.w700,
                                             fontFamily: 'Comic',
                                             color: Colors.white,
@@ -206,7 +204,7 @@ class MyApp extends StatelessWidget {
                                         Text(
                                           'CAR LOAN',
                                           style: TextStyle(
-                                            fontSize: 30.0,
+                                            fontSize: 25.0,
                                             fontWeight: FontWeight.w700,
                                             fontFamily: 'Comic',
                                             color: Colors.white,

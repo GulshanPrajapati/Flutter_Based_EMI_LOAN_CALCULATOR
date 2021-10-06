@@ -5,6 +5,7 @@ import 'package:form_field_validator/form_field_validator.dart';
 class CalculateLoan extends StatelessWidget {
   // var formKey = GlobalKey<FormState>();
   //---------------------------------Form Validation
+  TextEditingController ValidateControler = TextEditingController();
   GlobalKey<FormState> formKey = GlobalKey<FormState>();
 
   double amount, interest, tenure;
@@ -37,6 +38,7 @@ class CalculateLoan extends StatelessWidget {
           key: formKey,
           child: Container(
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Center(
                   child: Padding(
@@ -68,7 +70,6 @@ class CalculateLoan extends StatelessWidget {
                             Padding(
                               padding: const EdgeInsets.all(0.0),
                               child: TextFormField(
-                              validator: RequiredValidator(errorText: 'this field is required'),
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 20.0,
@@ -171,6 +172,8 @@ class CalculateLoan extends StatelessWidget {
                                 borderSide: BorderSide(
                                     width: 2, color: Color(0xff345B63)),
                                 onPressed: () {
+                                  print("cal" + ValidateControler.text);
+
                                   Navigator.of(context).push(MaterialPageRoute(
                                       builder: (context) => Result(
                                           inpAmount: amountVal.text,

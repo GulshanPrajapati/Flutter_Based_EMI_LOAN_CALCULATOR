@@ -57,7 +57,7 @@ class Result extends StatelessWidget {
                           Text(
                             ' Principal Amount ',
                             style: TextStyle(
-                              fontSize: 30.0,
+                              fontSize: 20.0,
                               fontWeight: FontWeight.w300,
                               fontFamily: 'Comic',
                               color: Colors.white,
@@ -66,7 +66,7 @@ class Result extends StatelessWidget {
                           Text(
                             '${inpAmount}',
                             style: TextStyle(
-                              fontSize: 30.0,
+                              fontSize: 20.0,
                               fontWeight: FontWeight.w300,
                               fontFamily: 'Lobster',
                               color: Colors.white,
@@ -95,7 +95,7 @@ class Result extends StatelessWidget {
                           Text(
                             ' No Of Years ',
                             style: TextStyle(
-                              fontSize: 30.0,
+                              fontSize: 20.0,
                               fontWeight: FontWeight.w300,
                               fontFamily: 'Comic',
                               color: Colors.white,
@@ -104,7 +104,7 @@ class Result extends StatelessWidget {
                           Text(
                             '${inpYear}',
                             style: TextStyle(
-                              fontSize: 30.0,
+                              fontSize: 20.0,
                               fontWeight: FontWeight.w300,
                               fontFamily: 'Lobster',
                               color: Colors.white,
@@ -133,7 +133,7 @@ class Result extends StatelessWidget {
                           Text(
                             ' Interest Rate ',
                             style: TextStyle(
-                              fontSize: 30.0,
+                              fontSize: 20.0,
                               fontWeight: FontWeight.w300,
                               fontFamily: 'Comic',
                               color: Colors.white,
@@ -142,7 +142,7 @@ class Result extends StatelessWidget {
                           Text(
                             '${inpInterest}%',
                             style: TextStyle(
-                              fontSize: 30.0,
+                              fontSize: 20.0,
                               fontWeight: FontWeight.w300,
                               fontFamily: 'Lobster',
                               color: Colors.white,
@@ -175,7 +175,7 @@ class Result extends StatelessWidget {
                           Text(
                             ' Monthly EMI ',
                             style: TextStyle(
-                              fontSize: 30.0,
+                              fontSize: 20.0,
                               fontWeight: FontWeight.w300,
                               fontFamily: 'Comic',
                               color: Colors.white,
@@ -184,7 +184,7 @@ class Result extends StatelessWidget {
                           Text(
                             '${cal()[0].toStringAsFixed(2)}',
                             style: TextStyle(
-                              fontSize: 30.0,
+                              fontSize: 20.0,
                               fontWeight: FontWeight.w300,
                               fontFamily: 'Lobster',
                               color: Colors.white,
@@ -213,7 +213,7 @@ class Result extends StatelessWidget {
                           Text(
                             ' Interest Amount ',
                             style: TextStyle(
-                              fontSize: 30.0,
+                              fontSize: 20.0,
                               fontWeight: FontWeight.w300,
                               fontFamily: 'Comic',
                               color: Colors.white,
@@ -222,7 +222,7 @@ class Result extends StatelessWidget {
                           Text(
                             '${cal()[1].toStringAsFixed(2)}',
                             style: TextStyle(
-                              fontSize: 30.0,
+                              fontSize: 20.0,
                               fontWeight: FontWeight.w300,
                               fontFamily: 'Lobster',
                               color: Colors.white,
@@ -252,7 +252,7 @@ class Result extends StatelessWidget {
                           Text(
                             ' Total Amount ',
                             style: TextStyle(
-                              fontSize: 30.0,
+                              fontSize: 20.0,
                               fontWeight: FontWeight.w300,
                               fontFamily: 'Comic',
                               color: Colors.white,
@@ -261,7 +261,7 @@ class Result extends StatelessWidget {
                           Text(
                             '${(cal()[2]).toStringAsFixed(2)}',
                             style: TextStyle(
-                              fontSize: 30.0,
+                              fontSize: 20.0,
                               fontWeight: FontWeight.w300,
                               fontFamily: 'Lobster',
                               color: Colors.white,
